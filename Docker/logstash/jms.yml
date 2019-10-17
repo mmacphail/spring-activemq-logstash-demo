@@ -1,0 +1,6 @@
+amq:
+  :broker_url: 'tcp://amq:61616'
+  :factory: org.apache.activemq.ActiveMQConnectionFactory
+  :exclusive_consumer: true
+  :require_jars:
+    - /usr/share/jms/activemq-all-5.15.10.jar
